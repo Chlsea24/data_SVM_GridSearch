@@ -23,15 +23,15 @@ from extract import extract_numeric_vector
 import tempfile
 from PIL import Image
 import numpy as np
-"""
+
 # --- Load Model & Scaler ---
 scaler = joblib.load("saved_model/SVM_GD_73_scaler.pkl")
 model  = joblib.load("saved_model/SVM_GD_73_RBF_best_model.pkl")
-"""
+
 # --- Header ---
 st.title("Identifikasi Wajah Gejala Stroke vs Bell’s Palsy")
 st.write("Silahkan unggah foto wajah yang ingin diklasifikasi. (Format: JPG/JPEG/PNG)")
-"""
+
 # --- Input Mode ---
 mode = st.radio("Pilih metode input:", ["📁 Upload", "📷 Kamera"])
 
@@ -83,7 +83,7 @@ if img_path is not None:
 
         # Hasil
         st.success(f"**✅ Hasil Klasifikasi: {label}**")
-"""
+
 # --- Footer ---
 st.markdown(
     """
