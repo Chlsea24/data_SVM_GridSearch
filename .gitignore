@@ -12,10 +12,6 @@ Dataset_BPST*.csv
 # Notebook
 *.ipynb
 
-# Model lain yang tidak dipakai
-saved_model/SVM_GD_82_*
-saved_model/SVM_GD_91_*
-
 # Streamlit cache
 app/.streamlit/secrets.toml
 app/.streamlit/cache/

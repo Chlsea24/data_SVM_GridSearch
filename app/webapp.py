@@ -25,8 +25,8 @@ from PIL import Image
 import numpy as np
 
 # --- Load Model & Scaler ---
-scaler = joblib.load("../saved_model/SVM_GD_73_scaler.pkl")
-model  = joblib.load("../saved_model/SVM_GD_73_RBF_best_model.pkl")
+scaler = joblib.load("saved_model/SVM_GD_73_scaler.pkl")
+model  = joblib.load("saved_model/SVM_GD_73_RBF_best_model.pkl")
 
 # --- Header ---
 st.title("Identifikasi Wajah Gejala Stroke vs Bell’s Palsy")
