@@ -46,7 +46,7 @@ if mode == "📁 Upload":
             img_path = tmp.name
 
         # ✅ Tampilkan preview gambar
-        st.image(img_path, caption=tmp.name, use_container_width=True)
+        st.image(img_path, use_container_width=True)
 
         # ✅ Loading spinner saat ekstraksi fitur
         with st.spinner("⏳ Memproses gambar..."):

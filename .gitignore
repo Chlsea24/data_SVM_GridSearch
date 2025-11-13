@@ -15,3 +15,6 @@ Dataset_BPST*.csv
 # Streamlit cache
 app/.streamlit/secrets.toml
 app/.streamlit/cache/
+
+# untuk codespaces
+.devcontainer/
